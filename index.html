@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiki</title>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./grid.css">
+    
+
+</head>
+
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div class="header">
+            <!-- mobile -->
+            <!-- <div class="header-mobile  ">
+                <div class="header-mobile__conten ">
+                    <div class="">
+                        <i
+                            class="fa-solid fa-magnifying-glass header-mobile__icon text-[#999] font-light leading-6"></i>
+                    </div>
+                    <div class="header-mobile__item w-[90%]">
+                        <input class="  " placeholder="Bạn đang tìm kiếm gì" type="text">
+
+                    </div>
+
+                </div>
+            </div> -->
+            <!-- end -->
+            <div class="header_container">
+                <div class="header_container_logo">
+                    <img class="tiki" src="./Img/2228f38cf84d1b8451bb49e2c4537081.png" alt="">
+
+
+
+                    <img class="ship" src="./Img/61ff572362f08ead7f34ce410a4a6f96.png" alt="">
+                </div>
+                <div class="header_serach">
+
+                    <div class="formserach">
+
+
+
+                        <input type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+
+
+                        <button class="serachbutton">
+                            <img class="imgserach" src="./Img/Rectangle (8).png" alt="">
+
+                            Tìm Kiếm
+                        </button>
+                    </div>
+                    <div class="content text-x ">
+                        <span class="">harry potter</span>
+                        <span class="">sherlock holmes</span>
+                        <span class="">cơ thể tự chữa lành</span>
+                        <span class="">nếu biết trăm năm là hữu
+                            hạn</span>
+                        <span class="">chú thuật hồi chiến vol
+                            3</span>
+                    </div>
+                </div>
+                <div class="header__user ">
+                    <div class="header__logo ">
+                        <img class="  pointer" src="./Img/Rectangle (9).png" alt="">
+                    </div>
+                    <div class="header__content">
+                        <span class="text-x ">Đăng Kí</span>
+                        <span class="text-white text-[11px] ">/</span>
+                        <span class="text-x">Đăng Nhập</span>
+                        <p class="text-white text-[13px] cursor-pointer flex">
+                            Tài Khoản
+                            <img class="header__content__img" src="./Img/Rectangle (11).png" alt="">
+                        </p>
+
+
+
+                    </div>
+                    <div class=" header__cart ">
+                        <img class="lg:w-[32px] lg:h-[32px] cursor-pointer" src="./Img/Rectangle (10).png" alt="">
+                        <span class="header__cart--text  pointer">Giỏ
+                            Hàng</span>
+                        <div class="header__cart__tiki">
+                            <p style=" background-color: rgba(255, 255, 255, 0.25)" class=" pointer ">
+                                <i class="fa-solid fa-house-user p-[3px] "></i>
+                                Bán hàng cùng Tiki
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container -->
+        <div class="container">
+            <div class="container-main ">
+                <!-- napbar -->
+                <!-- header -->
+                <div class=" container-header mb-0  ">
+
+
+                    <div class=" header__list   ">
+                        <div class="">
+                            <span class=" container-header__text1  ">Trang chủ </span>
+                        </div>
+                        <div class="container-header__list">
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="container-body ">
+
+                    <div class="container-napbar l-3 mb-0 ">
+
+                        <div class="categrory-list">
+
+                            <p class="categrory__title">DANH MỤC SẢN PHẨM</p>
+                            <ul class="container__list  categrory ">
+                                <li class="caterory__item">Sách tiếng Việt</li>
+                                <li class="caterory__item">Sách tư duy - Kỹ năng sống</li>
+                                <li class="caterory__item">Sách doanh nhân</li>
+                                <li class="caterory__item">Sách kỹ năng làm việc</li>
+                                <li class="caterory__item">Truyện ngắn - Tản văn - Tạp Văn</li>
+                                <li class="caterory__item">Tác phẩm kinh điển</li>
+                                <li class="caterory__item">English Books</li>
+                                <li class="caterory__item">Fiction - Literature
+
+                                </li>
+                                <li class="caterory__item">Sách tiếng Việt</li>
+
+                            </ul>
+                        </div>
+
+                        </ul>
+                        <div class="categrory-list">
+                            <h2 class="categrory__title   ">ĐỊA CHỈ NHẬN HÀNG</h2>
+                            <p class="caterory__item">Q. Hoàn Kiếm, P. Hàng Trống, Hà Nội</p>
+                            <p class="caterory__item text-primary ">ĐỔI ĐỊA CHỈ</p>
+
+
+                        </div>
+
+                        <ul class="categrory-list">
+                            <h2 class="categrory__title ">DỊCH VỤ</h2>
+                            <li class="caterory__item  ">
+                                <input class="translate-y-[2px]" type="checkbox">
+                                <img class="mx-[8px]" src="./Img/Rectangle (13).png" alt="">
+                                Giao siêu tốc 2H
+                            </li>
+                            <li class="caterory__item">
+                                <input class="translate-y-[2px]" type="checkbox">
+                                <img class="mx-[8px]" src="./Img/Rectangle (14).png" alt="">
+                                Không giới hạn
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Rẻ hơn hoàn tiền
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Trả góp 0%
+                            </li>
+                            <li class="footer__list__item"></li>
+                        </ul>
+
+                        <ul class="categrory-list font-light pt-[15px]">
+                            <h2 class="categrory__title">NƠI BÁN</h2>
+
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Hà Nội
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Hồ Chí Minh
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Đà Nẵng
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Thái Nguyên
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Bình Dương
+                            </li>
+                            <li class="flex text-xs text-[#0D5CB6] items-center my-[4px] cursor-pointer mt-[22px]">
+
+
+                                Xem Thêm
+                            </li>
+
+
+                        </ul>
+                        <ul class="categrory-list font-light pt-[15px]">
+                            <h2 class="categrory__title">ĐÁNH GIÁ</h2>
+
+
+                            <li class="caterory__item">
+                                <div class="caterory__item__star">
+
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                </div>
+
+                                từ 5 sao
+                            </li>
+                            <li class="caterory__item">
+                                <div class="caterory__item__star">
+
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: #B8B8B8" class="fa-solid fa-star text-xs"></i>
+                                </div>
+
+                                từ 4 sao
+                            </li>
+                            <li class="caterory__item">
+                                <div class="caterory__item__star">
+
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: rgb(253, 216, 54)" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: #B8B8B8" class="fa-solid fa-star text-xs"></i>
+                                    <i style="color: #B8B8B8" class="fa-solid fa-star text-xs"></i>
+                                </div>
+                                từ 3 sao
+                            </li>
+
+
+                        </ul>
+                        <ul class="categrory-list ">
+                            <h2 class="categrory__title">GIÁ</h2>
+                            <li class="  caterory__item--price ">
+
+                                Dưới 40.000
+                            </li>
+                            <li class=" caterory__item--price ">
+
+                                Từ 40.000 đến 120.000
+                            </li>
+                            <li class="  caterory__item--price ">
+
+
+                                Từ 120.000 đến 280.000
+                            </li>
+                            <li class="  caterory__item--price ">
+
+
+                                Trên 280.000
+                            </li>
+                            <li class=" caterory__price  ">
+
+                                <p class="caterory__price__title">Chọn khoảng giá</p>
+
+                                <div class="caterory__price__item">
+                                    <input class="" type="text">
+                                    <span class="px-[3px] pt-[3px]">-</span>
+                                    <input class="" type="text">
+
+                                </div>
+                                <button class="  ">Áp dụng</button>
+                            </li>
+                        </ul>
+
+                        <ul class="categrory-list font-light pt-[15px]">
+                            <h2 class="categrory__title">THƯƠNG HIỆU</h2>
+
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                CHONMUA 365
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Deli
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Stabilo
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Pentel
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Thiên Long
+                            </li>
+                            <li class="flex text-xs text-[#0D5CB6] items-center my-[4px] cursor-pointer mt-[22px]">
+
+
+                                Xem Thêm
+                            </li>
+
+
+                        </ul>
+
+                        <ul class="categrory-list font-light pt-[15px]">
+                            <h2 class="categrory__title">NHÀ CUNG CẤP</h2>
+
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Nhà sách Fahasa
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Tiki Trading
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Nhà Sách Vĩnh Thụy
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Times Books
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="checkbox">
+
+                                Minhhabooks
+                            </li>
+                            <li class="flex text-xs text-[#0D5CB6] items-center my-[4px] cursor-pointer mt-[22px]">
+
+
+                                Xem Thêm
+                            </li>
+
+
+                        </ul>
+                        <ul class="categrory-list font-light pt-[15px]">
+                            <h2 class="categrory__title">GIAO HÀNG</h2>
+
+                            <li class="caterory__item">
+                                <input class="" type="radio">
+
+                                Hàng nội địa
+                            </li>
+                            <li class="caterory__item">
+                                <input class="" type="radio">
+
+                                Hàng quốc tế
+                            </li>
+
+
+
+                        </ul>
+
+
+
+                    </div>
+                    <div class="container-content l-9">
+                        <!-- header -->
+                        <div class="container-content__header">
+                            <h2 class="container-header__title  ">
+                                Nhà Sách Tiki
+                            </h2>
+                            <div class="sliders  ">
+
+                                <div class="sliders-list relative">
+                                    <img class="slider-img" src="./Img/IimgSlide4.webp" alt="" />
+                                </div>
+                                <div class="sliders-button ">
+                                </div>
+
+
+                                <div class="slider-icon__left ">
+                                    <img class="" src="./Img/icon2.png" alt="">
+                                </div>
+                                <div class="slider-icon__right z-50 opacity opacity2 ">
+                                    <img class="" src="./Img/icon2.png" alt="">
+                                </div>
+
+                            </div>
+                            <ul class="container-menu ">
+
+                                <li class="container-menu__item    ">Phổ biến</li>
+                                <li class=" container-menu__item">Bán chạy</li>
+                                <li class=" container-menu__item">Hàng mới</li>
+                                <li class=" menu-mobile  md:hidden  container-menu__item">
+                                    Giá
+                                    <i class="fa-solid fa-arrow-down-long  text-[10px] scale-[0.7]"></i>
+                                    <i class="fa-solid fa-arrow-up-long text-[10px] scale-[0.7] translate-x-[-5px]"></i>
+
+                                </li>
+
+                                <li class="  container-menu__item">Giá thấp
+                                </li>
+                                <li class=" container-menu__item">Giá cao</li>
+                            </ul>
+                            <div class=" filter">
+                                <!-- <div class="flex items-center xl:hidden ">
+    
+                                    <img class="w-[15px] h-[15px] " src="./Img/images.png" alt="">
+                                    <span class="text-xs px-[10px] cursor-pointer font-light ">Lọc</span>
+    
+    
+                                </div> -->
+                                <img class="filter__item " src="./Img/Rectangle (13).png" alt="">
+                                <img class="filter__item " src="./Img/Rectangle (14).png" alt="">
+                                <!-- <div class=" block text-xs font-light xl:hidden">
+                                    Nhà cung cấp
+                                </div> -->
+                            </div>
+
+                        </div>
+
+                        <div class="container-product">
+
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                </span>300.000 đ
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__list">
+                                <a href="" class="product__link">
+                                    <div class="product__item ">
+                                        <div class=" product__item__thumbnail ">
+                                            <img class="" src="./Img/Rectangle (15).png" alt="">
+                                        </div>
+                                        <div class="product__des ">
+
+                                            <div class="product__des__tiki-now ">
+                                                <img class="" src="./Img/Rectangle (13).png" alt="">
+                                            </div>
+                                            <div class="product__time  ">
+                                                GIAO SIÊU TỐC 2H
+                                            </div>
+                                            <p class="product__name ">Càng Kỷ Luật, Càng Tự Do</p>
+                                            <div class="product__evaluate">
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <i class="fa-solid fa-star text-xs"></i>
+                                                <span class="">Đã bán 1000+</span>
+                                            </div>
+                                            <div class="product__price">
+                                                <span class="">
+                                                    300.000 đ
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer"></div>
+        </div>
+
+        <!-- footer -->
+        <div class=" ">
+            <div class="footer ">
+                <div class="footer__item">
+                    <ul class=" footer__item__list">
+                        <h2 class="text-[16px]">Hỗ trợ khách hàng</h2>
+                        <li class=" footer__list__item">
+                            <span>Hotline:</span>
+                            <span class="font-normal">1900-6035</span>
+                            <p>(1000 đ/phút, 8-21h kể cả T7, CN)</p>
+                        </li>
+                        <li class="footer__list__item">Các câu hỏi thường gặp</li>
+                        <li class="footer__list__item">Gửi yêu cầu hỗ trợ</li>
+                        <li class="footer__list__item">Hướng dẫn đặt hàng</li>
+                        <li class="footer__list__item">Phương thức vận chuyển</li>
+                        <li class="footer__list__item">Chính sách đổi trả</li>
+                        <li class="footer__list__item">Hướng dẫn trả góp</li>
+                        <li class="footer__list__item">Chính sách hàng nhập khẩu</li>
+                        <li class="footer__list__item">Hỗ trợ khách hàng:hotro@tiki.vn</li>
+                        <li class="footer__list__item">Báo lỗi bảo mật:security@tiki.vn
+                        </li>
+                        <li class="footer__list__item"></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul class=" footer__item__list">
+                        <h2 class="text-[16px]">Về Tiki</h2>
+                        <li class=" footer__list__item">
+                            Giới thiệu Tiki
+                        </li>
+                        <li class="footer__list__item">Tuyển dụng</li>
+                        <li class="footer__list__item">Chính sách bảo mật thanh toán</li>
+                        <li class="footer__list__item">Chính sách bảo mật thông tin cá nhân
+                        </li>
+                        <li class="footer__list__item">Chính sách giải quyết khiếu nại</li>
+                        <li class="footer__list__item">Điều khoản sử dụng</li>
+                        <li class="footer__list__item">Giới thiệu Tiki Xu</li>
+                        <li class="footer__list__item">Tiếp thị liên kết cùng Tiki</li>
+                        <li class="footer__list__item">Bán hàng doanh nghiệp</li>
+                        <li class="footer__list__item">Điều kiện vận chuyển</li>
+                        <li class="footer__list__item"></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul class=" footer__item__list">
+                        <h2 class="text-[16px]">Hợp tác và liên kết</h2>
+                        <li class=" footer__list__item">
+                            Quy chế hoạt động Sàn GDTMĐT
+                        </li>
+                        <li class="footer__list__item">Bán hàng cùng Tiki</li>
+                        <div class="mt-[24px]">
+                            <h2 class="text-[16px] font-normal">Chứng nhận bởi</h2>
+                            <div class="flex mt-[12px]">
+                                <img class="w-[32px] h-[32px]" src="./Img/Rectangle (16).png" alt="">
+                                <img class="mx-[11px] w-[32px] h-[32px]" src="./Img/Shape.png" alt="">
+                                <img class="w-[32px] h-[32px]" src="./Img/Shape (1).png" alt="">
+
+
+                            </div>
+                        </div>
+                </div>
+                <div class="footer__item">
+                    <ul class=" footer__item__list">
+                        <h2 class="text-[16px]">Phương thức thanh toán</h2>
+                        <li class=" footer__list__item">
+                            <img class="w-[190px]" src="./Img/Screen Shot 2022-06-05 at 22.47.39.png" alt="">
+
+                        </li>
+                        <li class="footer__list__dv ">Dịch vụ giao hàng</li>
+                        <div>
+                            <img class="footer__list__dv--img " src="./Img/Screen Shot 2022-06-05 at 22.42.35.png"
+                                alt="">
+                        </div>
+
+                </div>
+                <div class="footer__item">
+                    <ul class=" footer__item__list">
+                        <h2 class="text-[16px]">Kết nối với chúng tôi</h2>
+                        <li class="footer__list__item">
+                            <i class="fa-brands fa-facebook text-[#3B5998] w-[32px] h-[32px] text-[32px]"></i>
+                            <i class="fa-brands fa-youtube text-[#FF0000] text-[32px]"></i>
+
+                        </li>
+                        <li class=" footer__list__item text-basis font-light mt-[33px]">Tải ứng dụng trên điện thoại
+                        </li>
+                        <li class="footer__list__item flex">
+                            <img class="" src="./Img/Screen Shot 2022-06-05 at 22.51.36.png" alt="">
+
+                        </li>
+
+                </div>
+
+
+            </div>
+            <div style="border-top: 1px solid  #F2F2F2" class="footer ">
+                <ul class=" footer__item__list">
+
+                    <li class="footer__list__item">Trụ sở chính: Tòa nhà Viettel, Số 285, đường Cách Mạng Tháng 8,
+                        phường 12, quận 10, Thành phố Hồ Chí Minh</li>
+                    <li class="footer__list__item">Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua
+                        và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</li>
+                    <li class="footer__list__item">Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và
+                        Đầu tư Thành phố Hồ Chí Minh cấp lần đầu ngày 06/01/2010 và sửa đổi lần thứ 23 ngày 14/02/2022
+                    </li>
+                    <li class="footer__list__item">© 2022 - Bản quyền của Công ty TNHH Ti Ki</li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
